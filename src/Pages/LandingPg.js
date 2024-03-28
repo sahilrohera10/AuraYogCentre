@@ -5,6 +5,7 @@ import Services from "../Components/Services";
 import Gallery from "../Components/Gallery";
 import Footer from "../Components/Footer";
 import Contact from "../Components/Contact";
+import Testimonials from "../Components/Testimonials";
 
 export default function LandingPg() {
   return (
@@ -13,6 +14,7 @@ export default function LandingPg() {
       <About />
       <Services />
       <Gallery />
+      <Testimonials />
       <Contact />
       <Footer />
     </div>
